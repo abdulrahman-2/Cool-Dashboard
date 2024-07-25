@@ -16,8 +16,8 @@ export const theme = {
     danger: "#EE5D50",
     warning: "#FFCE20",
     frenchGray: "#C2CBDD",
-    hover: "",
-    active: "",
+    hover: "#ececec", // Example hover color
+    active: "#b3b3b3", // Example active color
   },
   typography: {
     fontFamily: `"DM Sans", sans-serif`,
@@ -42,37 +42,37 @@ export const theme = {
 // Reusable media query function
 export const media = {
   xxxl: (...args) => css`
-    @media (max-width: ${(props) => props.theme.breakpoints.xxxl}) {
+    @media (max-width: ${theme.breakpoints.xxxl}) {
       ${css(...args)}
     }
   `,
   xxl: (...args) => css`
-    @media (max-width: ${(props) => props.theme.breakpoints.xxl}) {
+    @media (max-width: ${theme.breakpoints.xxl}) {
       ${css(...args)}
     }
   `,
   xl: (...args) => css`
-    @media (max-width: ${(props) => props.theme.breakpoints.xl}) {
+    @media (max-width: ${theme.breakpoints.xl}) {
       ${css(...args)}
     }
   `,
   lg: (...args) => css`
-    @media (max-width: ${(props) => props.theme.breakpoints.lg}) {
+    @media (max-width: ${theme.breakpoints.lg}) {
       ${css(...args)}
     }
   `,
   md: (...args) => css`
-    @media (max-width: ${(props) => props.theme.breakpoints.md}) {
+    @media (max-width: ${theme.breakpoints.md}) {
       ${css(...args)}
     }
   `,
   sm: (...args) => css`
-    @media (max-width: ${(props) => props.theme.breakpoints.sm}) {
+    @media (max-width: ${theme.breakpoints.sm}) {
       ${css(...args)}
     }
   `,
   xs: (...args) => css`
-    @media (max-width: ${(props) => props.theme.breakpoints.xs}) {
+    @media (max-width: ${theme.breakpoints.xs}) {
       ${css(...args)}
     }
   `,
