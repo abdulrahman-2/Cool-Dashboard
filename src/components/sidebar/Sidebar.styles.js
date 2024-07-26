@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { theme, media } from "../../style/theme/theme";
+import { media, theme } from "../../style/theme/theme";
 
 export const SidebarWrap = styled.div`
   width: 260px;
@@ -11,13 +11,10 @@ export const SidebarWrap = styled.div`
   left: 0;
   height: 100%;
   box-shadow: rgba(0, 0, 0, 0.3) 0px 20px 30px;
-
-  &.sidebar-active {
-    transform: translateX(0);
-  }
+  /* transition: transform 0.3s ease-in-out; */
 
   ${media.xxl`
-      width: 240px;
+    width: 240px;
   `}
 
   ${media.xl`
@@ -85,7 +82,7 @@ export const SidebarWrap = styled.div`
 
       ${media.md`
         display: block;
-    `}
+      `}
     }
   }
 
@@ -114,8 +111,8 @@ export const SidebarWrap = styled.div`
       align-items: center;
 
       ${media.xl`
-            justify-content: center;
-        `}
+        justify-content: center;
+      `}
 
       ${media.md`
         justify-content: flex-start;
