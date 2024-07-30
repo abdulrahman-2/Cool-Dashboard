@@ -25,14 +25,14 @@ export const BlockTitle = styled.div`
   }
 `;
 
-export const BlockWrapStyle = css`
+export const BlockWrapStyles = css`
   background: ${theme.colors.spaceCadet1};
   border-radius: 20px;
   padding: 24px;
 `;
 
 export const BlockContentWrap = styled.div`
-  ${BlockWrapStyle}
+  ${BlockWrapStyles}
 `;
 
 export const BlockIconBtn = styled.button`

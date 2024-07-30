@@ -1,4 +1,4 @@
-import { Images } from "../assets/images";
+import { images } from "../assets/images";
 
 export const TOTAL_SPENT_DATA = [
   {
@@ -166,18 +166,18 @@ export const TEAM_MEMBERS_DATA = [
     id: 1,
     name: "Adela Parkson",
     position: "Creative Director",
-    image: Images.Team1,
+    image: images.Team1,
   },
   {
     id: 2,
     name: "Christian Mad",
     position: "Product Designer",
-    image: Images.Team2,
+    image: images.Team2,
   },
   {
     id: 3,
     name: "Jason Statham",
     position: "Junior Graphic Designer",
-    image: Images.Team3,
+    image: images.Team3,
   },
 ];

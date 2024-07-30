@@ -13,9 +13,9 @@ export const BaseLayoutWrap = styled.div`
     margin-left: 260px;
 
     ${media.xxl`
-       margin-left: 260px;
-       padding: 32px 16px;  
-    `}
+      margin-left: 260px;
+      padding: 32px 16px;  
+   `}
 
     ${media.xl`
        margin-left: 72px;
