@@ -25,17 +25,17 @@ export const BlockTitle = styled.div`
   }
 `;
 
-export const blockWrapStyle = css`
+export const BlockWrapStyle = css`
   background: ${theme.colors.spaceCadet1};
   border-radius: 20px;
   padding: 24px;
 `;
 
-export const blockContentWrap = styled.div`
-  ${blockWrapStyle}
+export const BlockContentWrap = styled.div`
+  ${BlockWrapStyle}
 `;
 
-export const blockIconBtn = styled.button`
+export const BlockIconBtn = styled.button`
   background: ${theme.colors.spaceCadet1};
   border-radius: 10px;
   width: 34px;

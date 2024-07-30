@@ -41,7 +41,7 @@ export const AppBarWrap = styled.header`
   }
 
   .appbar-head-ttl {
-    font-style: 32px;
+    font-size: 32px;
     font-weight: 700;
 
     ${media.lg`
@@ -65,7 +65,8 @@ export const AppBarWrap = styled.header`
   }
 
   .appbar-head-search {
-    max-width: 214px;
+    /* max-width: 214px; */
+    flex: 1;
     border-radius: 100vh;
     background: ${theme.colors.oxfordBlue};
     border: 0;
@@ -73,6 +74,14 @@ export const AppBarWrap = styled.header`
     display: flex;
     align-items: center;
     column-gap: 10px;
+  }
+
+  .appbar-search-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+    color: ${theme.colors.white};
   }
 
   .appbar-search-input {
@@ -86,6 +95,40 @@ export const AppBarWrap = styled.header`
 
     &::placeholder {
       color: ${theme.colors.white};
+    }
+  }
+
+  .appbar-head-misc {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+
+    button {
+      color: ${theme.colors.white};
+    }
+
+    .appbar-head-notif,
+    .appbar-head-info {
+      width: 24px;
+      height: 24px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+
+  .appbar-profile-avatar {
+    width: 42px;
+    height: 42px;
+    border-radius: 100%;
+    overflow: hidden;
+
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: top;
     }
   }
 `;

@@ -1,9 +1,12 @@
+import Summary from "../../components/pages/dashboard/Summary/Summary";
 import { DashboardScreenWrap } from "./dashboardScreen.style";
 
 const DashbordScreen = () => {
   return (
     <div>
-      <DashboardScreenWrap></DashboardScreenWrap>
+      <DashboardScreenWrap>
+        <Summary />
+      </DashboardScreenWrap>
     </div>
   );
 };

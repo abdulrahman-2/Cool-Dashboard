@@ -35,7 +35,7 @@ const AppBar = () => {
             </form>
             <div className="appbar-head-misc">
               <button className="appbar-head-notif">
-                <MdNotifications />
+                <MdNotifications size={24} />
               </button>
               <button className="appbar-head-info">
                 <IoMdInformationCircleOutline size={24} />
