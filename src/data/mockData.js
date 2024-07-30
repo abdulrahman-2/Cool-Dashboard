@@ -166,18 +166,18 @@ export const TEAM_MEMBERS_DATA = [
     id: 1,
     name: "Adela Parkson",
     position: "Creative Director",
-    image: images.Team1,
+    image: images.team1,
   },
   {
     id: 2,
     name: "Christian Mad",
     position: "Product Designer",
-    image: images.Team2,
+    image: images.team2,
   },
   {
     id: 3,
     name: "Jason Statham",
     position: "Junior Graphic Designer",
-    image: images.Team3,
+    image: images.team3,
   },
 ];

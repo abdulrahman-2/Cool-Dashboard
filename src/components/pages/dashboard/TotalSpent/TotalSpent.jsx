@@ -1,5 +1,5 @@
 import { MdArrowDropUp, MdBarChart, MdCalendarMonth } from "react-icons/md";
-import { BlockIconBtn, BlockTitle } from "../../../../style/global/default";
+import { BlockIconBtn, BlockTitle } from "../../../../styles/global/default";
 import { TotalSpentWrap } from "./TotalSpent.styles";
 import { GoCheckCircleFill } from "react-icons/go";
 import {
@@ -11,7 +11,7 @@ import {
   Tooltip,
 } from "recharts";
 import { TOTAL_SPENT_DATA } from "../../../../data/mockData";
-import { theme } from "../../../../style/theme/theme";
+import { theme } from "../../../../styles/theme/theme";
 import PropTypes from "prop-types";
 
 const formatYAxisLabel = (value) => {

@@ -1,5 +1,5 @@
 import { SummaryWrap } from "./Summary.styles";
-import { BlockContentWrap } from "../../../../style/global/default";
+import { BlockContentWrap } from "../../../../styles/global/default";
 import {
   MdAttachFile,
   MdBarChart,

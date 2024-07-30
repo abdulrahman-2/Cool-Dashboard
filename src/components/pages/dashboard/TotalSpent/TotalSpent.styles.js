@@ -1,6 +1,6 @@
 import styled from "styled-components";
-import { BlockWrapStyles } from "../../../../style/global/default";
-import { media, theme } from "../../../../style/theme/theme";
+import { BlockWrapStyles } from "../../../../styles/global/default";
+import { media, theme } from "../../../../styles/theme/theme";
 
 export const TotalSpentWrap = styled.div`
   ${BlockWrapStyles};

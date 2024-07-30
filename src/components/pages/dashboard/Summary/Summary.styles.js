@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { media, theme } from "../../../../style/theme/theme";
+import { media, theme } from "../../../../styles/theme/theme";
 
 export const SummaryWrap = styled.div`
   margin-bottom: 20px;

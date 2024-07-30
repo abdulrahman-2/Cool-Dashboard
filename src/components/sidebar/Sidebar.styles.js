@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { media, theme } from "../../style/theme/theme";
+import { media, theme } from "../../styles/theme/theme";
 
 export const SidebarWrap = styled.div`
   width: 260px;
@@ -11,7 +11,7 @@ export const SidebarWrap = styled.div`
   left: 0;
   height: 100%;
   box-shadow: rgba(0, 0, 0, 0.3) 0px 20px 30px;
-  /* transition: transform 0.3s ease-in-out; */
+  transition: transform 0.3s ease-in-out;
 
   ${media.xxl`
     width: 240px;
